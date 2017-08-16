@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { PolymerElement } from 'angular-polymer';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,6 +13,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
