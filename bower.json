@@ -1,0 +1,23 @@
+{
+  "name": "my-project-name3",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Garabed Yeriazarian <garabed.yeriazarian@bakerhughes.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "px-spinner": "^2.0.3",
+    "px-card": "^1.0.3",
+    "px-kpi": "^2.0.3",
+    "px-starter-kit-design": "^1.0.1"
+  }
+}
