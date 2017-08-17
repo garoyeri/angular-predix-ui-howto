@@ -22,7 +22,7 @@
         "styles.scss"
       ],
       "scripts": [
-        "assets/bower_components/webcomponentsjs/webcomponents.js"
+        "assets/bower_components/webcomponentsjs/webcomponents.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
